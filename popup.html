@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Prompt Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>AI Prompt Generator</h2>
+
+    <input id="inputText" type="text" placeholder="Enter topic..." />
+
+    <select id="mode">
+      <option value="learning">Learning</option>
+      <option value="coding">Coding</option>
+      <option value="research">Research</option>
+      <option value="project">Project</option>
+    </select>
+
+    <button id="generateBtn">Generate</button>
+
+    <textarea id="output" placeholder="Generated prompt..."></textarea>
+
+    <div class="btn-group">
+      <button id="copyBtn">Copy</button>
+      <button id="saveBtn">Save</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

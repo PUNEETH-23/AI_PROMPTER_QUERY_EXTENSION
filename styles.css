@@ -1,0 +1,37 @@
+body {
+  font-family: Arial;
+  width: 320px;
+  padding: 10px;
+  background: #0f172a;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, select, textarea {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  padding: 10px;
+  background: #7c3aed;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+textarea {
+  height: 130px;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
